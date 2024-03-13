@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>
+      Minha primeira página
+    </title>
+    <meta charset="UTF-8">
+  </head>
+<body>
+    <h1 align="center">Minha primeira página</h1>
+    <hr>
+    <h2>
+       <strong> Bem-vindo </strong> à minha <em>primeira</em> página HTML
+    </h2>
+   
+    <img src="assets/imagem/images.jfif" alt="o homi">
+        <br>
+        TOPS DE DUBAI  
+    <ul>
+        <li>Osvaldo</li>
+        <li>Léo Gamalho</li>
+        <li>Lucas Arcanjo</li>
+    </ul>
+    <a href="https://pt.besoccer.com/time/elenco/vitoria">Visite o exemplo</a>
+   <br>
+   <table border="2px">
+    <tr> 
+     <th colspan="2">pessoas
+    </tr>
+    <tr>
+     <th>Nome</th>
+     <th>Sobrenome</th>
+     
+    </tr>
+    <tr>
+     <td>Léo </td>
+     <td>Gamalho</td>
+ 
+     <br>
+    </tr>
+    <tr> 
+        <td>Lucas</td>
+         <td>Arcanjo</td>
+         
+        </tr>
+        <br>
+        </table>
+
+        <form action="/action_page.php">
+            <label for="fname">Seu nomezinho:</label><br>
+            <input type="text" id="fname" name="fname" value="Bru_no"><br>
+            <label for="lname">Sobre Nome:</label><br>
+            <input type="text" id="lname" name="lname" value="Play"><br><br>
+            <input type="submit" value="Continuar">
+          </form> 
+
+          <footer>
+            <p>© 2024 Minha Primeira Página</p>
+          </footer>
+
+<body bgcolor="#E0FFFF">
+    </body>
+    </html>
